@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WQKTLFS');</script>
+        <!-- End Google Tag Manager -->
+    <!-- Analytics tracking removed for static site -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Joshua Duxbury - Senior .Net Developer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Joshua Lee Duxbury is a Senior .Net Developer from the North West of Lancashire, England.   ">
+    <meta name="author" content="Joshua lee Duxbury">
+    <meta name="keywords" content="Joshua Duxbury, Joshduxbury, Joshua Lee Duxbury, Lancashire, Skelmersdale, .net, programming, Website Developer" />
+    <meta name="robots" content="index" />
+    <meta name="expires" content="never"> 
+    <!-- Favicon removed - file doesn't exist -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="./CSS/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./CSS/cover.css" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div>
+
+
+          <div>
+            <h1 class="cover-heading">Joshua Lee Duxbury BSc </h1>
+                <div id="cycler">
+                    <img class="active" src="./businesscard/bc1.JPG" alt="my business card" />
+                    <img src="./businesscard/bc2.JPG" alt="my business card" />	
+                    <img src="./businesscard/bc3.JPG" alt="my business card" />	
+                    <img src="./businesscard/bc4.JPG" alt="my business card" />	
+                    <img src="./businesscard/bc5.JPG" alt="my business card" />	
+                    <img src="./businesscard/bc6.JPG" alt="my business card" />	
+                    <img src="./businesscard/bc7.JPG" alt="my business card" />	
+                    <img src="./businesscard/bc8.JPG" alt="my business card" />	
+                    <img src="./businesscard/bc9.JPG" alt="my business card" class="longwait" />	
+                    <img src="./businesscard/bcback.JPG" alt="my business card" class="longwait" />	
+                </div>
+            <div class="content">
+                <p></p>
+            <p class="lead"> Senior Fullstack Software Engineer working with Microsoft Technologies. He is currently a public speaker and coordinator of <a href="https://twitter.com/dotnetliverpool">@DotNetLiverpool</a>
+            <p class="lead">
+              <a href="./home/" class="btn btn-lg btn-default">Learn more</a>
+            </p>
+            </div>
+          </div>
+
+     
+
+        </div>
+
+      </div>
+
+    </div>
+
+<style>
+
+
+@media screen and (max-height: 900px){
+    @media screen and (min-width: 800px){
+    div.content > p.lead:first-child {
+        padding-top: 200px;
+        
+    }
+ }
+}
+
+
+
+@media screen and (min-width: 768px) {
+#cycler {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    right: 341px;
+    top: 143px;
+    /* display: block; */
+    margin: 0 auto;
+    margin-left: 7%;
+}
+.content {
+    padding-top: 346px;
+    /* max-width: 80%; */
+    /* width: 100%; */
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+}
+
+@media screen and (max-width:  768px) {
+@media screen and (min-width: 0px) {
+    #cycler {
+        width: 100%;
+        height: 0px;
+        position: absolute;
+        right: 41%;
+        top: 143px;
+        /* display: block; */
+        margin: 0 auto;
+        margin-left: 7%;
+    }
+    .content {
+    padding-top: 88%;
+    /* max-width: 80%; */
+    /* width: 100%; */
+    padding-left: 18%;
+    padding-right: 20%;
+}
+
+}
+}
+
+
+h1{
+        font-size: 36px;
+    position: absolute;
+    top: 61px;
+    width: 100%;
+}
+
+#cycler img{position:absolute;z-index:1;max-width: 80%;}
+#cycler img.active{z-index:3}
+
+</style>    
+
+<script>
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+var counter = 0;
+async function cycleImages(){
+      $active = $('#cycler .active.longwait').length;
+    console.log("count = " + $active)
+     if($active > 0 && counter <= 3){
+          counter++;
+     }
+     else{
+         counter = 0;
+          $active = $('#cycler .active'); 
+          var $active = $('#cycler .active');
+          var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
+          $next.css('z-index',2);//move the next image up the pile
+          $active.fadeOut(1500,function(){//fade out the top image
+    	  $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+              $next.css('z-index',3).addClass('active');//make the next image the top one
+          });
+     }
+    }
+
+$(document).ready(function(){
+// run every 7s
+setInterval('cycleImages()', 1300);
+})
+</script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- Bootstrap JS removed - file doesn't exist -->
+ </body>
+</html>

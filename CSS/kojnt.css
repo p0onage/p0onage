@@ -1,0 +1,264 @@
+@font-face {
+    font-family: Gotham-Light;
+    src:	url('/fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+			url('/fonts/Gotham-Light.woff') format('woff'), 
+			url('/fonts/Gotham-Light.ttf');
+}
+@font-face {
+    font-family: Gotham-LightItalic;
+    src:	url('/fonts/Gotham-LightItalic.eot?#iefix') format('embedded-opentype'),
+			url('/fonts/Gotham-LightItalic. woff') format('woff'), 
+			url('/fonts/Gotham-LightItalic.ttf');
+}
+@font-face {
+    font-family: Gotham-Medium;
+    src:	url('/fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+			url('/fonts/Gotham-Medium.woff') format('woff'), 
+			url('/fonts/Gotham-Medium.ttf');
+}
+@font-face {
+    font-family: Gotham-Thin;
+    src:	url('/fonts/Gotham-Thin.eot?#iefix') format('embedded-opentype'),
+			url('/fonts/Gotham-Thin.woff') format('woff'), 
+			url('/fonts/Gotham-Thin.ttf');
+}
+
+
+/* Navigation header */
+body { font-size:15px; }
+.navbar-default { background-color:none; border:0; background:url("http://kojnt.com/images/nav-BG-white.png") repeat left top; border-radius:0; width:100%; position:fixed; z-index:100; min-height:58px; margin-bottom:0; } 
+a.navbar-brand { background:url("http://kojnt.com/images/svgicons/main-logo.svg") no-repeat left top; overflow:hidden; width:110px; height:33px; text-indent:110px; line-height:3em; font-size:3em; padding:0; margin:11px 0 0; }
+.navbar-default .navbar-nav > li > a { font-weight:bold;}
+
+/* Page Banner */
+.home .jumbotron { background-color:none; border:0; background:url("http://kojnt.com/images/main-header-ban.jpg") no-repeat center top; background-size:auto; margin-bottom:0 }
+.jumbotron h1 { font-family:"Gotham-Light",sans-serif; font-style:normal; color:#fff; }
+.jumbotron h1 span.text1 { font-family:"Gotham-Medium",sans-serif; }
+.jumbotron h1 span.text2 { font-family:"Gotham-LightItalic",sans-serif; }
+.jumbotron p { margin-top:12px; }
+.jumbotron p a { padding:14px 20px }
+.btn-lrg-home { font-size:1.5em; font-family:"Gotham-Light",sans-serif; font-style:normal; padding:14px 30px; margin-top:30px; }
+.btn-lrg-home span { font-family:"Gotham-Medium",sans-serif; }
+.btn-lrg-home.consumer { background-color:#004563; float:right; }
+.btn-lrg-home.retailer { float:left; }
+.arrowsConsumerRetailer { display:block; background:url("http://kojnt.com/images/svgicons/home-arrows.svg") no-repeat left top; width:170px; height:90px; margin:0 auto; }
+
+
+
+.jumbotron .col-xs12 { padding:130px 0; }
+.btn { border-radius:0; }
+
+section.whoAreYou { background:#fff; margin:0; padding:80px 0 120px; }
+section.whoAreYou h1 { font-family:"Gotham-Light",sans-serif; font-style:normal; color:#0282c9; font-size:2.8em; }
+section.whoAreYou p { font-size:1.8em; font-family:"Gotham-Light",sans-serif; font-style:normal; padding:10px 0 0; }
+
+section.contactUs { background:#0282c9; margin:0; padding:80px 0 120px;  }
+section.contactUs h1, section.featuresBenefits h1 { font-family:"Gotham-Light",sans-serif; font-style:normal; color:#fff; font-size:2.8em; }
+section.contactUs p { color:#fff; font-size:1.7em; font-family:"Gotham-Light",sans-serif; font-style:normal; }
+
+.contactBlock { font-size:1.5em; text-align:center; }
+.contactBlock i {  width:110px; height:110px; display:block; background-color:#fff; border-radius:50%; margin:40px auto; text-align:center; overflow:hidden; line-height:1em; }
+.contactBlock i span { background:url("http://kojnt.com/images/svgicons/kojnt-svgicons.svg") no-repeat left top; width:63px; height:49px; background-size:179px 330px; display:block; overflow:hidden; margin:31px auto 0; text-indent:80px; line-height:3em; }
+.contactBlock a { color:#fff; font-size:1.2em; font-family:"Gotham-Medium",sans-serif; }
+span.smallSep { background:#fff; width:80px; display:block; height:3px; margin:24px auto; }
+
+footer { background:#1a1a1a; text-align:center; padding:30px 0 120px; }
+footer i.logo-footer { width:110px; height:49px; display:block; margin:0 auto; }
+footer i.logo-footer span { background:url("http://kojnt.com/images/svgicons/kojnt-svgicons.svg") no-repeat -70px top; display:block; width:110px; height:49px; background-size:179px 330px; overflow:hidden; text-indent:110px; line-height:3em; font-size:3em;  }
+footer ul { list-style:none; margin:12px 0 0; padding:8px 0; }
+footer ul li { list-style:none; margin:0; padding:0 20px; display:inline-block; border-right:1px solid #fff; font-size:1.2em; }
+footer ul li:last-child { border:0; }
+footer ul li a { color:#fff; }
+footer ul li a:hover { color:#0282c9; }
+
+
+/* Reseller Features Benefits */
+
+.resellerFeatures .jumbotron{ background-color:none; border:0; background:url("http://kojnt.com/images/features-header-ban.jpg") no-repeat center top; background-size:100% auto; margin-bottom:0 }
+.resellerFeatures .jumbotron a.btn, .resellerLocations .jumbotron a.btn { border:2px solid #fff; background:#000; font-size:1.2em; text-transform:uppercase; padding:18px 40px; color:#fff; transition:ease-in-out 0.3s; font-family:"Gotham-Medium",sans-serif; font-style:normal; }
+.resellerFeatures .jumbotron a.btn:hover, .resellerLocations .jumbotron a.btn:hover { box-shadow:0px 0px 12px #333; background:#333; }
+
+
+section.featuresBenefits { background:#333333; margin:0; padding:80px 0 120px;  }
+section.featuresBenefits ul { list-style:none; margin:12px auto 0; padding:28px 0; text-align:left; width:710px; }
+section.featuresBenefits li { list-style:none; margin:0; color:#fff; font-size:1.8em; font-family:"Gotham-Light",sans-serif; font-style:normal; padding-bottom:10px; }
+section.featuresBenefits li i { background:url("http://kojnt.com/images/svgicons/kojnt-svgicons.svg") no-repeat left -54px; display: inline-block; background-size:179px 330px; width:36px; height:34px; margin-right:6px; }
+section.featuresBenefits a { margin:20px auto 0; }
+section.featuresBenefits li span.text1 { font-family:"Gotham-Medium",sans-serif; font-style:normal; }
+section.featuresBenefits li span.text2 { font-family:"Gotham-LightItalic",sans-serif; font-style:normal; }
+
+
+.resellerLocations .jumbotron { background-color:none; border:0; background:url("http://kojnt.com/images/locations-header-ban.jpg") no-repeat center top; background-size:100% auto; margin-bottom:0 }
+
+section.coverage h1 { color:#0282c9; font-family:"Gotham-Light",sans-serif; font-style:normal; font-size:2.8em; }
+section.coverage { background:#FFF; margin:0; padding:80px 0 120px;  }
+section.coverage ul { list-style:none; margin:12px auto 0; padding:28px 0; text-align:center;  }
+section.coverage li { list-style:none; margin:0; color:#333; font-size:1.8em; font-family:"Gotham-Light",sans-serif; font-style:normal; padding-bottom:10px; }
+section.coverage li i { background:url("http://kojnt.com/images/svgicons/kojnt-svgicons.svg") no-repeat left -54px; display: inline-block; background-size:179px 330px; width:36px; height:34px; margin-right:6px; }
+section.coverage a { margin:20px auto 0; }
+
+section.fourGridIcons { padding:46px 0 70px; }
+section.fourGridIcons .row i { width:90px; height:90px; display:block; background-color:#0282c9; border-radius:50%; margin:0; text-align:center; overflow:hidden; line-height:1em; position:absolute; }
+section.fourGridIcons .row i.ico span { background-image:url(http://kojnt.com/images/svgicons/kojnt-svgicons.svg); background-repeat:no-repeat; width:55px; height:55px; background-size:179px 330px; display:block; overflow:hidden; margin:20px auto 0; }
+section.fourGridIcons .row i.ico.no-disputes span { background-position:left -92px; }
+section.fourGridIcons .row i.ico.confidence span { background-position:-65px -91px; }
+section.fourGridIcons .row i.ico.no-claim span { background-position:-128px -92px; }
+section.fourGridIcons .row i.ico.efficient-returns span { background-position:2px -153px; }
+section.fourGridIcons .container { padding:30px 0; }
+section.fourGridIcons h2, section.fourGridIcons p { margin:0 0 0 120px; padding:6px 0; line-height:1em; font-size:1.2em; font-family:"Gotham-Light",sans-serif; font-style:normal; }
+section.fourGridIcons h2 { margin-top:20px; }
+
+
+
+.resellerPricing .jumbotron { background-color: transparent !important; border:0; margin-bottom:0; text-align:center; padding-bottom:0; }
+.resellerPricing .jumbotron h1, .resellerPricing .jumbotron h2 { max-width:700px; margin:0 auto; font-size:3.6em; font-family:"Gotham-Light",sans-serif; font-style:normal; color:#fff; }
+.resellerPricing .jumbotron h2 { max-width:550px; }
+.resellerPricing .jumbotron .secondary, .enduserPricing .jumbotron .secondary { background:url("http://kojnt.com/images/nav-BG.png") repeat left top; }
+.resellerPricing .coverage a, .enduserPricing .secondary a, .registration section.regForm button { background-color:#0282c9; color:#fff; font-family:"Gotham-Medium",sans-serif; font-style:normal; padding: 18px 40px; border:2px solid #fff; text-transform: uppercase; }
+.resellerPricing .coverage a:hover, .enduserPricing .secondary a:hover, .registration section.regForm button:hover { background-color:#004563; }
+
+
+.resellerHowItWorks .jumbotron { background-color:none; border:0; background:url("http://kojnt.com/images/howItWorks-tall-banner.jpg") no-repeat center top; background-size:100% auto; margin-bottom:0; text-align:center; padding-bottom:0; }
+.resellerHowItWorks .jumbotron h1 { max-width:700px; margin:0 auto; font-size:3.6em; font-family:"Gotham-Light",sans-serif; font-style:normal; color:#fff; }
+.resellerHowItWorks .jumbotron p { color:#fff; }
+
+.col-20per { width:20% !important; }
+.resellerHowItWorks span.number, .enduserHowItWorks span.number { display:block; text-align:center; padding:14px 0; font-size:2.4em; font-family:"Gotham-Light",sans-serif; font-style:normal; color:#666666; }
+.resellerHowItWorks .row i.ico, .enduserHowItWorks .row i.ico { margin:0 auto; position:inherit; }
+.resellerHowItWorks .row .col-md-2, .enduserHowItWorks .row .col-md-3 { border-right:1px solid #d3d3d3; min-height:270px; }
+.resellerHowItWorks .row .col-md-2:first-child, .enduserHowItWorks .row .col-md-3:first-child { border-left:1px solid #d3d3d3; }
+.resellerHowItWorks .row h3, .enduserHowItWorks .row h3 { margin:0; color:#666; font-size:1.3em; font-style:normal; line-height:1.4em; padding-top:20px; text-align:center; font-family:"Gotham-Light",sans-serif; font-weight:normal; }
+.resellerHowItWorks .fourGridIcons h2, .enduserHowItWorks .fourGridIcons h2 { font-size:3em; font-family:"Gotham-Light",sans-serif; font-weight:normal; font-style:normal; text-align:center; margin:0; color:#0282c9; display:block; padding:6px 0 50px; }
+
+.resellerHowItWorks .row i.ico.downloadAPI span { background-position:-123px -215px; }
+.resellerHowItWorks .row i.ico.install-code span { background-position:left -277px; }
+.resellerHowItWorks .row i.ico.shopping-basket span { background-position:-123px -155px; }
+.resellerHowItWorks .row i.ico.update-process span { background-position:-61px -277px; }
+.resellerHowItWorks .row i.ico.offer-kojnt span { background-position:-123px -277px; }
+
+.faqs .jumbotron { background-color:none; border:0; background:url("http://kojnt.com/images/enduser-faq-header.jpg") no-repeat center top; background-size:100% auto; margin-bottom:0; text-align:center; padding-bottom:0; }
+.resellerFaqs .faqBlock .question { width:780px; float:none; margin:0 auto; }
+.resellerFaqs .jumbotron { background-color:none; border:0; background:url("http://kojnt.com/images/reseller-faq-header.jpg") no-repeat center top; background-size:100% auto; margin-bottom:0; text-align:center; padding-bottom:0; }
+
+section.faqBlock h1 { color:#0282c9; font-family:"Gotham-Light",sans-serif; font-style:normal; font-size:2.8em; margin-top:50px; padding-bottom:20px; }
+section.faqBlock { background:#fff; margin:0; padding:80px 0 120px;  }
+section.faqBlock a { margin:40px auto 0; }
+
+section.faqBlock .question .buttons { display: inline-block; width:42px; height:32px; }
+section.faqBlock button.expandText, section.faqBlock button.collapseText { border:0; width:30px; height:30px; background-color:#fff; background-image:url(/images/svgicons/kojnt-svgicons.svg); background-repeat:no-repeat; background-size:179px 330px; margin-top:8px; position:absolute; display:block; }
+section.faqBlock button.expandText { background-position:-52px -55px; }
+section.faqBlock button.collapseText { background-position:-96px -57px; }
+section.faqBlock .question { padding-bottom:10px; }
+section.faqBlock .question h2 { display: inline-block; font-family:"Gotham-Light",sans-serif; font-style:normal; color:#333; margin:0; padding:0; font-size:1.5em; line-height:1.4em; }
+section.faqBlock .question p { color:#666; line-height:1.6em; padding:8px 0; font-size:1.1em;}
+.question.collapsed button.collapseText, .question.expanded button.expandText { display:none; }
+.faqBlock .question { width:580px; float:none; margin:0 auto; }
+
+.enduserBenefits .jumbotron  { background-color:none; border:0; background:url("http://kojnt.com/images/enduser-benefits-ban.jpg") no-repeat center top; background-size:100% auto; margin-bottom:0 }
+.enduserBenefits section.whoAreYou h1 { padding-bottom:20px; }
+
+.enduserPricing .jumbotron { background-color: transparent !important; border:0; margin-bottom:0; text-align:center; padding-bottom:0; }
+.enduserPricing .secondary { padding: }
+.enduserPricing .secondary h1 { font-size:2.8em; margin-top:0; padding-bottom:30px; }
+.enduserPricing .secondary p { color:#fff; }
+.enduserPricing .secondary .col-xs12 { padding:90px 0; }
+.enduserPricing .secondary a.btn { margin-top:36px; }
+.enduserPricing a:hover { color:#fff; }
+
+
+.enduserHowItWorks .jumbotron { background-color:none; border:0; background:url("http://kojnt.com/images/EndUser-howItWorks-ban.jpg") no-repeat center top; background-size:100% auto; margin-bottom:0; text-align:center; padding-bottom:0; }
+.enduserHowItWorks .jumbotron p { color:#fff; }
+.enduserHowItWorks .row i.ico.web-shop span { background-position:-62px -155px; }
+.enduserHowItWorks .row i.ico.shopping-basket span { background-position:-123px -155px; }
+.enduserHowItWorks .row i.ico.accidentally-break span { background-position:-1px -214px; }
+.enduserHowItWorks .row i.ico.swap-out span { background-position:-63px -214px; }
+
+.subNav { background:#e9e9e9; height:80px; width:100%; }
+.subNav ul { margin:0 auto; height:80px; width:810px; }
+.subNav ul li { height:80px; display:flex; float:left; margin:0; /* border-left:1px solid #d4d4d4; */ }
+.subNav ul li:first-child { border-left:0; }
+.subNav ul li a { padding:0 28px; transition:ease-in-out 0.3s; line-height:5.2em; overflow:hidden; height:80px; display:block; font-weight:bold; }
+.subNav ul li a:hover { background:#e0e0e0; color:#000; text-decoration:none; }
+.subNav ul li a.on { background:#d3d3d3; }
+.subNav ul li a.on:hover { background:#d3d3d3; text-decoration:none; }
+ul.nav a.on { color:#0282c9; }
+
+.endPriceBackground { background:url("http://kojnt.com/images/pricing-tall-banner.jpg") no-repeat center top; background-size:100% auto; }
+.resellerPriceBackground { background:url("http://kojnt.com/images/pricing-header-ban.jpg") no-repeat center top; background-size:100% auto; }
+
+.belowBanText { font-family:"Gotham-Light",sans-serif; font-style:normal; color:#333; padding:46px 0; font-size:1.4em; line-height:2.4em; background:#333; color:#fff; }
+
+.blueBlock {  color:#333; padding:60px 0 70px; font-size:1.4em; line-height:2.4em; background:#0282c9; color:#fff; }
+.blueBlock h2 { font-family:"Gotham-Medium",sans-serif; font-style:normal; font-size:2.2em; line-height:1.5em; }
+.blueBlock p { font-family:"Gotham-Light",sans-serif; font-style:normal; font-size:1.6em; margin-top:20px; }
+
+
+.reassured .jumbotron { background-color:none; border:0; background:url("http://kojnt.com/images/reassured-header-ban.jpg") no-repeat center top; background-size:2000px auto; margin-bottom:0; text-align:center; padding-bottom:0; min-height:670px; }
+.reassured .jumbotron h3 { font-size:2.9em; font-family:"Gotham-Medium",sans-serif; font-style:normal; color:#333; padding-left:100px; }
+
+
+.enduserReseller .jumbotron  { background-color:none; border:0; background:url("http://kojnt.com/images/EndUser-locations-ban.jpg") no-repeat center top; background-size:100% auto; margin-bottom:0 }
+.minHeightBan { height:430px;}
+.endPriceBackground .minHeightBan, .endPriceBackground .secondary div.container { height:inherit !important; }
+.endPriceBackground .jumbotron.minHeightBan div.container { height:430px; }
+.endPriceBackground .jumbotron.minHeightBan { padding-top:0; }
+.endPriceBackground .jumbotron.minHeightBan h1 { padding-top:46px; }
+
+
+.documentationPage h1 { font-family:"Gotham-Light",sans-serif; font-style:normal; padding:120px 0 26px; font-size:3.2em; color:#0282c9; }
+.documentationPage h2 { font-family:"Gotham-Light",sans-serif; font-style:normal; color:#333; padding:40px 0 30px; font-size:2.2em; }
+.documentationPage p { font-family:"Gotham-Light",sans-serif; font-style:normal; color:#333; padding:16px 0; font-size:1.4em; line-height:2.2em; color:#333; }
+.documentationPage ul.bullets { text-align:left; }
+.documentationPage ul.bullets li { font-family:"Gotham-Light",sans-serif; font-style:normal; color:#333; padding:16px 0; font-size:1.4em; color:#333; }
+.documentationPage .col-xs12 { padding-bottom:50px; }
+
+.registration .jumbotron { background-color:none; border:0; background:url("http://kojnt.com/images/howItWorks-tall-banner.jpg") no-repeat center top; background-size:100% auto; margin-bottom:0; text-align:center; padding-bottom:0; }
+section.regForm { padding:20px 0; }
+section.regForm .col-xs-8 { margin:0 auto; padding:46px 0; float:none; }
+section.regForm .form-group { min-height:56px; }
+section.regForm .form-group .control-label { text-align:left; }
+section.regForm h2 { font-family:"Gotham-Light",sans-serif; font-style:normal; color:#0282c9; padding:0 0 50px; font-size:2.2em; }
+section.regForm p.bg-danger { padding:12px 30px; margin-bottom:30px; }
+
+
+.resellerLocations section.coverage ul { width:710px; text-align:left; }
+.thankYou { min-height:300px; }
+
+@media screen and (max-width: 980px) {
+	.arrowsConsumerRetailer { display:none; }
+	.documentationPage .container { padding:0 46px; }
+}
+@media screen and (max-width: 950px) {
+	.col-20per { width:100% !important; border-bottom: 1px solid #d3d3d3; }
+	.resellerHowItWorks .row .col-md-2, .enduserHowItWorks .row .col-md-3, .resellerHowItWorks .row .col-md-2:first-child, .enduserHowItWorks .row .col-md-3:first-child { border-right:0; border-left:0;  }
+	
+}
+
+@media screen and (max-width: 700px) {
+	a.navbar-brand { margin-left:20px; }
+	.jumbotron { background-size:auto 100% !important; }
+	.jumbotron h1 { font-size:54px; }
+	div.subNav { display:none; }
+	.reassured .jumbotron { background-size:auto 100% !important; min-height:370px; }
+	.reassured .jumbotron .col-xs12 { padding:30px 0; }
+	.reassured .jumbotron .col-xs12 h3 { padding-left:40px; }
+	section.featuresBenefits ul, .resellerLocations section.coverage ul, .resellerFaqs .faqBlock .question { width:100%; }
+	section.featuresBenefits li, .resellerLocations section.coverage li { padding-left:50px; padding-bottom:30px; }
+	section.featuresBenefits li i, .resellerLocations section.coverage li i { position:absolute; margin-left:-50px; }
+	.endPriceBackground, .resellerPriceBackground { background-size:auto 100% !important; }
+}
+
+@media screen and (max-width: 640px) {
+	.btn-lrg-home.consumer, .btn-lrg-home.retailer { float:none; }
+	.btn { white-space:normal; }
+	section.faqBlock .question { width:100%; padding-left:50px; padding-bottom:30px; }
+	section.faqBlock .question .buttons { position:absolute; margin-left:-50px;  }
+	section.faqBlock button.expandText, section.faqBlock button.collapseText { margin-top:3px; }
+}
+@media screen and (max-width: 500px) {
+	.btn { margin-left:20px; margin-right:20px;}
+}
+
+
+
+

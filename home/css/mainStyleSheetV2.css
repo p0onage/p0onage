@@ -763,4 +763,216 @@ media quires for mobile
     background-color: rgba(255, 0, 0, 0.4);
     width: 100%;
 }   
+
+/* Experience Section Styles */
+.experience-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.experience-section {
+    margin-bottom: 24px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-section:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.experience-header {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.experience-header:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.experience-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+}
+
+.experience-company-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.experience-logo {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.experience-main-info h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.experience-duration {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 4px;
+}
+
+.expand-icon {
+    transition: transform 0.3s ease;
+}
+
+.experience-section.expanded .expand-icon {
+    transform: rotate(180deg);
+}
+
+.experience-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+}
+
+.experience-section.expanded .experience-content {
+    max-height: 1000px;
+    padding: 20px;
+}
+
+.experience-position {
+    margin-bottom: 24px;
+    padding: 16px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.experience-position:last-child {
+    margin-bottom: 0;
+}
+
+.position-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.position-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 12px;
+}
+
+.position-meta span {
+    font-size: 14px;
+    color: #666;
+}
+
+.position-description {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    position: relative;
+}
+
+.show-more-btn {
+    background: none;
+    border: none;
+    color: #0a66c2;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 8px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.show-more-btn:hover {
+    color: #004182;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .experience-container {
+        padding: 16px 0;
+    }
+    
+    .experience-toggle {
+        padding: 12px 16px;
+    }
+    
+    .experience-company-info {
+        gap: 12px;
+    }
+    
+    .experience-logo {
+        width: 48px;
+        height: 48px;
+        font-size: 16px;
+    }
+    
+    .experience-main-info h3 {
+        font-size: 18px;
+    }
+    
+    .experience-section.expanded .experience-content {
+        padding: 16px;
+    }
+    
+    .experience-position {
+        padding: 12px;
+        margin-bottom: 16px;
+    }
+    
+    .position-title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience-toggle {
+        padding: 10px 12px;
+    }
+    
+    .experience-company-info {
+        gap: 8px;
+    }
+    
+    .experience-logo {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    .experience-main-info h3 {
+        font-size: 16px;
+    }
+    
+    .experience-duration {
+        font-size: 12px;
+    }
+    
+    .experience-section.expanded .experience-content {
+        padding: 12px;
+    }
+}
    
